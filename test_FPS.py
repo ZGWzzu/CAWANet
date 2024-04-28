@@ -4,7 +4,7 @@ import time
 import numpy as np
 import torch.utils.data
 from tqdm import tqdm
-from bisenetv1 import BiSeNetV1
+from src.CAWANet import CAWA
 
 model = BiSeNetV1(4).to('cuda')
 
