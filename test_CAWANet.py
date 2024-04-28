@@ -58,7 +58,7 @@ def evaluate(model, data_loader, device, num_classes):
         for image, target, _, size1,_ in metric_logger.log_every(data_loader, 100, header):
             image, target = image.to(device), target.to(device)
             output = model(image)['out']
-            output = F.interpolate(output, size=(200, 200), mode='bilinear', align_corners=False)
+            # output = F.interpolate(output, size=(200, 200), mode='bilinear', align_corners=False)
             confmat.update(target.flatten(), output.argmax(1).flatten())
 
         confmat.reduce_from_all_processes()
