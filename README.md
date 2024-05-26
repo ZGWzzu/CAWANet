@@ -3,6 +3,18 @@
 
 # Dataset
 We used data sets adopted by FDSNet: [MSD,NEU-Seg, MSD.](https://github.com/jianzhang96/fdsnet?tab=readme-ov-file)
-MT-Defects weights：链接：https://pan.baidu.com/s/13hZBmSwXGeX8R-f9IkYihw 提取码：8bnv  
-NEU-Seg weights：链接：https://pan.baidu.com/s/1xiCEGYb_Typ8E_55UExVYA 提取码：hu1s  
-MSD weights：链接：https://pan.baidu.com/s/1K3WAQsDaywEIRDtTOSjWUw 提取码：3qtq  
+
+# Environment
+Python 3.8.18 PyTorch 2.1.2 CUDA 11.8
+The training was on an NVIDIA 3090 GPU, and the FPS was tested on an NVIDIA 1080Ti GPU
+einops == 0.7.0
+torchvision == 0.16.2
+# Usage
+First download the dataset, and then put the dataset into /CAWANet/. Run python test_MSD.py
+# Model weight
+| Dataset | pth | mIoU | FPS |
+| :---: | :---: | :---: |
+| MSD | [CAWA_MSD](https://pan.baidu.com/s/13hZBmSwXGeX8R-f9IkYihw 提取码：8bnv) | 90.1 | 186.5|
+| NEU | [CAWA_NEU](https://pan.baidu.com/s/1xiCEGYb_Typ8E_55UExVYA 提取码：hu1s) | 77.9 | 420.0|
+| MT | [CAWA_MT](https://pan.baidu.com/s/1K3WAQsDaywEIRDtTOSjWUw 提取码：3qtq  ) | 79.5 | 414.7|
+# Results
