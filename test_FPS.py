@@ -6,7 +6,7 @@ import torch.utils.data
 from tqdm import tqdm
 from src.CAWANet import CAWA
 
-model = BiSeNetV1(4).to('cuda')
+model = CAWA(4).to('cuda')
 
 model.eval()
 example_inputs = torch.randn((1, 3,512,512)).to('cuda')
