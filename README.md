@@ -1,20 +1,4 @@
 
-<style>
-  .copy-btn {
-    background: #333;
-    border: none;
-    color: white;
-    cursor: pointer;
-    padding: 5px 10px;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-  }
-
-  .copy-btn:hover {
-    background: #555;
-  }
-</style><br>
 
 
 # Dataset
@@ -35,12 +19,9 @@ You can create an environment by typing a command：
 
 
 
-<div class="language-python highlighter-rouge">
-  <pre class="highlight"><code><span class="k">conda</span> <span class="nf">create</span><span class="p"></span><span class="n">-n</span><span class="p">CAWANet</span> <span class="k">python</span> <span class="k">==</span> <span class="k">3.8.18</span>
-    
-</code></pre>
-</div>
-<button class="copy-btn" data-clipboard-target=".language-python">Copy</button>
+```
+conda env create -f requirements.yml
+```
 
 # Usage
 First download the dataset, and then put the dataset into /CAWANet/. Run python test_MSD.py
