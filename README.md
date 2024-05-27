@@ -1,4 +1,20 @@
-
+<script src="https://cdn.rawgit.com/zenorocha/clipboard.js/v2.0.0/dist/clipboard.min.js"></script>  
+<style>
+  .copy-btn {
+    background: #333;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  
+  .copy-btn:hover {
+    background: #555;
+  }
+</style>
 # Dataset
 We used data sets adopted by FDSNet: [MSD,NEU-Seg, MSD.](https://github.com/jianzhang96/fdsnet?tab=readme-ov-file)
 
