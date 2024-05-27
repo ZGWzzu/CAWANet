@@ -29,7 +29,6 @@ pip install -r requirements.txt
 ```
 
 # Usage
-We divided the test code for the three data sets into test_NEU.py, test_MSD.py, and test_MT.py. We set the parameters for each data set in the corresponding py file, just download the corresponding data set, and then put the data set in the /CAWANet/ directory. Then just run python test_MSD.py
 We divided the test code for the three data sets into test_NEU.py, test_MSD.py, and test_MT.py. We set the parameters for each data set in the corresponding py file and just do the following to run it:  
 1. Download the appropriate data set and place the data set in the /CAWANet/ directory.  
 2. Download the weight files for the corresponding data set, and then place the weight files in the /CAWANet/ directory.  
