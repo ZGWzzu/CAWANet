@@ -16,7 +16,33 @@ torchvision==0.16.2
 
 You can create an environment by typing a command：  
 
-```conda create -n env python==3.6``` //python
+```conda create -n env python==3.6```   
+
+<script src="https://cdn.rawgit.com/zenorocha/clipboard.js/v2.0.0/dist/clipboard.min.js"></script>
+<style>
+  .copy-btn {
+    background: #333;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  
+  .copy-btn:hover {
+    background: #555;
+  }
+</style>
+
+<div class="language-python highlighter-rouge">
+  <pre class="highlight"><code><span class="k">def</span> <span class="nf">hello_world</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Hello, '</span> <span class="o">+</span> <span class="n">name</span><span class="p">)</span>
+</code></pre>
+</div>
+<button class="copy-btn" data-clipboard-target=".language-python">Copy</button>
+
 # Usage
 First download the dataset, and then put the dataset into /CAWANet/. Run python test_MSD.py
 # Model weight
