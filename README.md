@@ -1,4 +1,6 @@
+# CAWANet
 
+<img src="https://github.com/ZGWzzu/CAWANet/blob/main/docs/CAWANet.jpg" width = 800px>
 
 
 # Dataset
@@ -32,9 +34,9 @@ First download the dataset, and then put the dataset into /CAWANet/. Run python 
 
  Dataset | pth | mIoU | FPS 
  --- | --- | ---|---
- MSD | [CAWA_MSD](https://pan.baidu.com/s/13hZBmSwXGeX8R-f9IkYihw) 提取码：8bnv | 90.1 | 186.5
- NEU | [CAWA_NEU](https://pan.baidu.com/s/1xiCEGYb_Typ8E_55UExVYA) 提取码：hu1s | 77.9 | 420.0
- MT | [CAWA_MT](https://pan.baidu.com/s/1K3WAQsDaywEIRDtTOSjWUw) 提取码：3qtq| 79.5 | 414.7
+ MSD | [CAWA_MSD](https://pan.baidu.com/s/13hZBmSwXGeX8R-f9IkYihw) Extract code：8bnv | 90.1 | 186.5
+ NEU | [CAWA_NEU](https://pan.baidu.com/s/1xiCEGYb_Typ8E_55UExVYA) Extract code：hu1s | 77.9 | 420.0
+ MT | [CAWA_MT](https://pan.baidu.com/s/1K3WAQsDaywEIRDtTOSjWUw) Extract code：3qtq| 79.5 | 414.7
 
 # Results
 
