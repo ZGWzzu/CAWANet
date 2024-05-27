@@ -14,12 +14,12 @@ torchvision==0.16.2
 
 You can create an environment by typing a command：  
 
-```conda create -n env python==3.6```   
+
 
 
 <div class="language-python highlighter-rouge">
-  <pre class="highlight"><code><span class="k">def</span> <span class="nf">hello_world</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">'Hello, '</span> <span class="o">+</span> <span class="n">name</span><span class="p">)</span>
+  <pre class="highlight"><code><span class="k">conda</span> <span class="nf">create</span><span class="p">(</span><span class="n">-n</span><span class="p">)CAWANet</span> <span class="k">python</span> <span class="k">==</span> <span class="k">3.8.18</span>
+    
 </code></pre>
 </div>
 <button class="copy-btn" data-clipboard-target=".language-python">Copy</button>
