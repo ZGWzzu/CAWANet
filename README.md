@@ -1,4 +1,6 @@
-```html
+
+<script src="https://cdn.rawgit.com/zenorocha/clipboard.js/v2.0.0/dist/clipboard.min.js"></script>  
+
 <style>
   .copy-btn {
     background: #333;
@@ -10,16 +12,11 @@
     right: 10px;
     top: 10px;
   }
-
+  
   .copy-btn:hover {
     background: #555;
   }
 </style>  
-```markdown
-```html
-<script src="https://cdn.rawgit.com/zenorocha/clipboard.js/v2.0.0/dist/clipboard.min.js"></script>
-# CAWANet_test
-<img src="https://github.com/ZGWzzu/CAWANet/blob/main/docs/CAWANet.jpg" width = 800px>
 
 # Dataset
 We used data sets adopted by FDSNet: [MSD,NEU-Seg, MSD.](https://github.com/jianzhang96/fdsnet?tab=readme-ov-file)
