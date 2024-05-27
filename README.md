@@ -14,8 +14,10 @@
   .copy-btn:hover {
     background: #555;
   }
-</style>
-
+</style>  
+```markdown
+```html
+<script src="https://cdn.rawgit.com/zenorocha/clipboard.js/v2.0.0/dist/clipboard.min.js"></script>
 # CAWANet_test
 <img src="https://github.com/ZGWzzu/CAWANet/blob/main/docs/CAWANet.jpg" width = 800px>
 
