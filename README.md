@@ -1,6 +1,6 @@
 # CAWANet
 
-<img src="https://github.com/ZGWzzu/CAWANet/blob/main/docs/CAWANet.jpg" width = 800px>
+<img src="https://github.com/ZGWzzu/CAWANet/blob/main/docs/CAWANet_.jpg" width = 800px>
 
 
 # Dataset
