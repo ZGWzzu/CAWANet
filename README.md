@@ -16,11 +16,14 @@ torchvision==0.16.2
 
 You can create an environment by typing a command：  
 
-
-
-
 ```
-conda env create -f requirements.yml
+conda create -n CAWANet python==3.8.18
+activate CAWANet
+```
+
+Download the required package:  
+```
+pip install -r requirements.txt
 ```
 
 # Usage
