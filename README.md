@@ -5,10 +5,17 @@
 We used data sets adopted by FDSNet: [MSD,NEU-Seg, MSD.](https://github.com/jianzhang96/fdsnet?tab=readme-ov-file)
 
 # Environment
+The training was on an NVIDIA 3090 GPU, and the FPS was tested on an NVIDIA 1080Ti GPU   
 Python 3.8.18 PyTorch 2.1.2 CUDA 11.8  
-  The training was on an NVIDIA 3090 GPU, and the FPS was tested on an NVIDIA 1080Ti GPU  
-  einops == 0.7.0  
-  torchvision == 0.16.2  
+   
+einops==0.7.0  
+numpy==1.24.4  
+Pillow==10.0.1  
+torch==2.1.2  
+torchvision==0.16.2  
+
+You can create an environment by typing a command：
+<mark>conda create -n env python==3.6</mark>
 # Usage
 First download the dataset, and then put the dataset into /CAWANet/. Run python test_MSD.py
 # Model weight
