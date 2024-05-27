@@ -1,4 +1,4 @@
-<script src="https://cdn.rawgit.com/zenorocha/clipboard.js/v2.0.0/dist/clipboard.min.js"></script>
+```html
 <style>
   .copy-btn {
     background: #333;
@@ -10,7 +10,7 @@
     right: 10px;
     top: 10px;
   }
-  
+
   .copy-btn:hover {
     background: #555;
   }
