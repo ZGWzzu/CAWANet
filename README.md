@@ -1,3 +1,21 @@
+<script src="https://cdn.rawgit.com/zenorocha/clipboard.js/v2.0.0/dist/clipboard.min.js"></script>
+<style>
+  .copy-btn {
+    background: #333;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  
+  .copy-btn:hover {
+    background: #555;
+  }
+</style>
+
 # CAWANet_test
 <img src="https://github.com/ZGWzzu/CAWANet/blob/main/docs/CAWANet.jpg" width = 800px>
 
@@ -18,23 +36,6 @@ You can create an environment by typing a command：
 
 ```conda create -n env python==3.6```   
 
-<script src="https://cdn.rawgit.com/zenorocha/clipboard.js/v2.0.0/dist/clipboard.min.js"></script>
-<style>
-  .copy-btn {
-    background: #333;
-    border: none;
-    color: white;
-    cursor: pointer;
-    padding: 5px 10px;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-  }
-  
-  .copy-btn:hover {
-    background: #555;
-  }
-</style>
 
 <div class="language-python highlighter-rouge">
   <pre class="highlight"><code><span class="k">def</span> <span class="nf">hello_world</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
